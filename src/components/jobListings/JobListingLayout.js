@@ -18,14 +18,14 @@ const JobListingLayout = ({ joblisting }) => {
         </div>
         {/* job title and description */}
         <div className="text-gray-600 text-sm">
-          <p className="font-bold text-gray-800 text-md">{joblisting.title}</p>
+          <p className="font-bold text-[#581c87] text-md">{joblisting.title}</p>
           <p>{`${joblisting.company}-${joblisting.location}`}</p>
           <p>{`${joblisting.type}-${joblisting.salary}`}</p>
           <p>{joblisting.mode}</p>
         </div>
       </div>
       {/* CTA */}
-      <div className="flex flex-col justify-between">
+      <div className="flex flex-col text-[#581c87] justify-between">
         <span className=" flex gap-2 text-xl font-bold">
           <GoShare />
           <FaRegBookmark />
