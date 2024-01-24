@@ -5,17 +5,20 @@ import JobTitle from '@/components/buttons/JobTitle'
 import JobListings from '@/components/jobListings/JobListings'
 import User from '@/components/header/User'
 import Search from '@/components/header/Search'
+import Header2 from '@/components/header/Header2'
 
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center mt-10">
-      <User />
-      <Search/>
+        <Header2 />
+
       <FreeInterviewTips />
-      <p className='text-start my-5 font-semibold'>Search by Popular Jobs Title</p>
+      <p className="text-start my-5 font-semibold">
+        Search by Popular Jobs Title
+      </p>
       <JobTitle />
-      <JobListings/>
+      <JobListings />
     </main>
-  )
+  );
 }
