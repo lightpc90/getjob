@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
-import InterviewImage from '../../../../public/Saly-13now.svg'
+import InterviewImage from '../../../../public/Saly-6.svg'
 import Image from "next/image";
 
 const FreeInterviewTips = () => {
