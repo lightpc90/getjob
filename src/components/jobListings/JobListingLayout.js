@@ -24,14 +24,12 @@ const JobListingLayout = ({ joblisting }) => {
         </div>
       </div>
       {/* CTA */}
-      <div className="flex gap-1 text-lg">
-        <div  className="bg-gray-200 flex flex-col">
+      <div className="flex flex-col justify-between">
+        <span className=" flex gap-2 text-xl font-bold">
           <GoShare />
-        </div>
-
-        <div className="bg-gray-200 flex flex-col">
           <FaRegBookmark />
-        </div>
+        </span>
+        <span className="text-sm text-gray-400">2 days</span>
       </div>
     </div>
   );

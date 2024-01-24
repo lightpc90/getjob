@@ -1,15 +1,14 @@
-import React from 'react'
-import User from './User'
-import Search from './Search'
+import React from "react";
+import Intro from "./Intro";
 
 
 const Header = () => {
   return (
-      <div className='mt-10'>
-          <User />
-          <Search />
+    <div className="mb-10">
+      <Intro />
+      
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

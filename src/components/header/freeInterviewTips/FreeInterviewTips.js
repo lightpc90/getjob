@@ -7,10 +7,12 @@ import Image from "next/image";
 const FreeInterviewTips = () => {
   return (
     <div className="flex flex-wrap items-center ">
-      <Image src={InterviewImage} alt="interview image" className="w-6/12"/>
-      <div className="flex flex-col justify-center font-bold gap-3 w-5/12">
-        <p>13 Interview Tips That Guarantee Your Success</p>
-        <Link href="/" className="flex items-center gap-1">
+      <Image src={InterviewImage} alt="interview image" className="w-6/12" />
+      <div className="flex flex-col justify-center font-bold gap-3 w-5/12 text-end">
+        <p className="text-2xl">
+          13 Interview Tips That Guarantee Your Success
+        </p>
+        <Link href="/" className="flex text-[#581c87] items-center gap-1">
           Learn more
           <span>
             <HiArrowLongRight size={20} />
