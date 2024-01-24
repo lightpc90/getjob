@@ -15,7 +15,7 @@ export default function Home() {
 
       <FreeInterviewTips />
       <p className="text-start my-5 font-semibold">
-        Search by Popular Jobs Title
+        Search by Popular Job Titles
       </p>
       <JobTitle />
       <JobListings />

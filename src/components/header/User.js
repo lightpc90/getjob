@@ -8,7 +8,10 @@ const User = () => {
         <p>Ready to land your dream job?</p>
       </div>
       {/* display picture */}
-      <div className="w-[50px] h-[50px] rounded-full bg-gray-400"></div>
+      <div
+        className="w-[50px] h-[50px] border-2 border-[#3b0764] rounded-full bg-gray-400 bg-center bg-no-repeat bg-cover"
+        style={{ backgroundImage: "url('/my dp.jpeg')" }}
+      ></div>
     </div>
   );
 };

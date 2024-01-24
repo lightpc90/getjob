@@ -7,7 +7,7 @@ const JobTitle = () => {
       {jobTitles.map((jobTitle, i) => (
         <button
           key={i}
-          className="border-2 text-white text-xs rounded-xl px-3 py-1 border-white bg-[#7e22ce] shadow-md"
+          className="border-2 text-white text-xs rounded-xl px-3 py-1 border-white bg-[#3b0764] shadow-md"
         >
           {jobTitle}
         </button>
