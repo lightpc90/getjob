@@ -13,6 +13,7 @@ export default function Home() {
       <User />
       <Search/>
       <FreeInterviewTips />
+      <p className='text-start my-5 font-semibold'>Search by Popular Jobs Title</p>
       <JobTitle />
       <JobListings/>
     </main>

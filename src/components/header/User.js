@@ -2,7 +2,7 @@ import React from "react";
 
 const User = () => {
   return (
-    <div className="flex flex-wrap justify-between mb-5 items-center gap-3">
+    <div className="flex flex-wrap font-semibold justify-between mb-5 items-center gap-3">
       <div>
         <p>Hi Gideon,</p>
         <p>Ready to land your dream job?</p>
