@@ -7,12 +7,13 @@ const JobListingLayout = ({ joblisting }) => {
     <div className="bg-white rounded-md flex justify-between p-2 shadow-md">
       <div className="flex gap-2">
         {/* logo */}
-        <div className="p-3 bg-gray-200 rounded-md shadow-sm w-3/12 flex">
+        <div className="p-2 bg-gray-200 rounded-md shadow-sm w-3/12 flex justify-center items-center">
           <Image
             src={joblisting.logo}
             alt={`company logo`}
             width={800}
             height={800}
+            className="w-full h-full"
           />
         </div>
         {/* job title and description */}
