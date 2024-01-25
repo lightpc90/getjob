@@ -8,9 +8,9 @@ const MobileNav = () => {
         <div>CareerCraze</div>
 
         <div className="flex gap-1 items-center">
-          <div className="border-2 border-[#3b0764] px-1 rounded-md">SignIn</div>
+          {/* <div className="border-2 border-[#3b0764] px-1 rounded-md">SignIn</div>
           <p>|</p>
-          <div>SignUp</div>
+          <div>SignUp</div> */}
           <CgMenuRight size={30} />
         </div>
       </div>
