@@ -6,7 +6,7 @@ import FeatureJobLayout from './FeatureJobLayout'
 const FeatureJobs = () => {
     const featureJobs = pickRandomly(jobListings, 6)
   return (
-      <div className='flex gap-2 p-2 h-[140px]'>
+      <div className='flex gap-3 p-2 h-[140px]'>
           {featureJobs.map((featureJob, i) => (
               <FeatureJobLayout key={i} featureJob={ featureJob} />
           ))}
