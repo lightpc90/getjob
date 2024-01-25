@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const SiteLinks = () => {
   return (
-    <div className="flex flex-wrap gap-3 my-10">
+    <div className="flex flex-wrap gap-3 my-10 items-center">
       {siteMapLinks.map((siteLink, i) => (
         <Link href={siteLink.url} key={i}>{siteLink.name}</Link>
       ))}

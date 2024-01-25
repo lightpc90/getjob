@@ -8,7 +8,7 @@ const Intro = () => {
         Your Career Starts Here
       </h2>
       <div className="w-full lg:w-4/12 p-2">
-        <Image src="/Saly-1.svg" width={900} height={900} />
+        <Image src="/Saly-1.svg" alt="header image" width={900} height={900} />
       </div>
     </div>
   );

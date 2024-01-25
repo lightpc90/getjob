@@ -3,8 +3,8 @@ export const siteMapLinks = [
   { name: "About", url: "/about" },
   { name: "Privacy Policy", url: "/privacy-policy" },
   { name: "Terms", url: "/terms" },
-  { name: "signIn", url: "/signIn" },
-  { name: "SignUp", url: "/signIn" },
+  { name: "SignIn", url: "/signin" },
+  { name: "SignUp", url: "/signup" },
 ];
 
 export const siteMapFilterSearch = [

@@ -1,6 +1,6 @@
 import React from 'react'
 import { jobListings } from '@/data/jobListings'
-import { pickRandomly } from '@/app/utilityFunctions/pickRandomly'
+import { pickRandomly } from '@/utilityFunctions/pickRandomly'
 import FeatureJobLayout from './FeatureJobLayout'
 
 const FeatureJobs = () => {
