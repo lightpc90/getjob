@@ -1,0 +1,20 @@
+/* styles/Marquee.module.css */
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marqueeContainer {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  animation: marqueeAnimation 10s linear infinite;
+}
