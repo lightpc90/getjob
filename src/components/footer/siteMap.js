@@ -1,12 +1,14 @@
-import Link from 'next/link'
-import React from 'react'
+import React from "react";
+import { siteMapLinks, siteMapFilterSearch } from "@/data/siteMap";
 
 const SiteMap = () => {
   return (
-      <div>
-          <Link></Link>
+    <div className="flex flex-col gap-2 my-10">
+      {siteMapFilterSearch.map((keyword, i) => (
+        <button key={i}>{keyword}</button>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default SiteMap
+export default SiteMap;
