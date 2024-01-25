@@ -22,9 +22,9 @@ const Header2 = () => {
     },[])
   return (
     <div
-      className={`sticky top-[70px]  flex flex-col w-full p-3 justify-center items-center ${
+      className={`sticky top-[70px]  flex flex-col w-full justify-center items-center ${
         isSticky
-          ? "bg-[#3b0764] rounded-b-xl opacity-95 text-white"
+          ? "bg-[#3b0764] rounded-b-xl opacity-95 text-white py-3"
           : "text-[#3b0764]"
       }`}
     >
